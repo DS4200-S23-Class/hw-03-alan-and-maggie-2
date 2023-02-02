@@ -1,0 +1,17 @@
+/* Styling goes in this file */
+
+body {
+	font-family: Arial;
+
+}
+
+.centered {
+	text-align: center;
+}
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	border-collapse: collapse;
+}
