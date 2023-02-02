@@ -9,11 +9,14 @@ body {
 	text-align: center;
 }
 
-.columns {
+.la-header {
+	text-align: left;
+}
+
+.row {
 	display: flex;
 	flex-direction: row;
 	text-align: left;
-	border-collapse: collapse;
 }
 
 /* https://www.w3schools.com/howto/howto_css_two_columns.asp */
