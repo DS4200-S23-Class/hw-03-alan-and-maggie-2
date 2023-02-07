@@ -20,13 +20,34 @@
             <div class = "column">
                 <h2 class="la-header">Marks</h2>
                 <ul>
-                    <li>Item</li>
-                    <li>Link</li>
+                    <li>Areas: The states</li>
+                    <li>Points: Nebraska's and Maine's electoral votes</li>
                 </ul>
                 <h2 class="la-header">Channels</h2>
                 <ul>
-                    <li>Item</li>
-                    <li>Link</li>
+                    <li>Color</li>
+                    <ul>
+                        <li>Represents attribute of quantitative type</li>
+                        <li>We believe it's a good choice because it represents the data as intended, with the colors associating with their respective parties.</li>
+                    </ul>
+                    <li>Size: Area</li>
+                    <ul>
+                        <li>Represents attribute of quantitative type</li>
+                        <li>We believe this is also a good choice because it shows the numerical difference in electoral votes, rather than simply which side a state chose.</li>
+                    </ul>
+                    <li>Position: Both</li>
+                    <ul>
+                        <li>Represents attribute of categorical type</li>
+                        <li>We believe this isn't a bad choice, but it isn't super necessary. It shows where the votes are relative to each other.</li>
+                    </ul>
+                </ul>
+                <h2 class = "la-header">Colormap(s)</h2>
+                <ul>
+                    <li>Categorical</li>
+                    <ul>
+                        <li>Represents the attribute of quantitative type: votes per state</li>
+                        <li>Similar to what we wrote for Color, we believe this is a good choice because it connects the Color and Area channels.</li>
+                    </ul>
                 </ul>
             </div>
         </div>
@@ -38,21 +59,40 @@
             <div class = "column">
                 <h2 class="la-header">Marks</h2>
                 <ul>
-                    <li>Item</li>
-                    <li>Link</li>
+                    <li>Points: The data</li>
+                    <li>Lines: Grouping of data</li>
                 </ul>
                 <h2 class="la-header">Channels</h2>
                 <ul>
-                    <li>Item</li>
-                    <li>Link</li>
+                    <li>Position: Both</li>
+                    <ul>
+                        <li>Represents the attribute of Ordered: Diverging type</li>
+                        <li>We believe this is a good, and smart choice. It helps to show where the baseline of the data is, and the position each data point is relative to that base level.</li>
+                    </ul>
+                    <li>Color: hue</li>
+                    <ul>
+                        <li>Represents the attribute of Ordered: Diverging type</li>
+                        <li>We believe this is bad choice because while purple and orange are two distinct colors, there seems to be no correlation between their selections. A scale from red to orange might have represented the data better.</li>
+                    </ul>
+                    <li>Color: saturation</li>
+                    <ul>
+                        <li>Represents the attribute of Ordered: Diverging type</li>
+                        <li>We believe this is a good choice and should have been the original choice of representation for the Avg LWTS for a batted ball.</li>
+                    </ul>
+                </ul>
+                <h2 class = "la-header">Colormap(s)</h2>
+                <ul>
+                    <li>Divergent</li>
+                    <ul>
+                        <li>Represents the attribute of diverging type: Avg LWTS for batted balls</li>
+                        <li>Similar to what we wrote for Color: saturation, we believe this is a good choice because it effortlessly reperesents the groupings of data from each other, those being the below Avg, Avg, and above Avg LWTS.</li>
+                    </ul>
                 </ul>
             </div>
         </div>
     </div>
 
     <div><a href="https://ibb.co/H7YNrcx"><img src="https://i.ibb.co/jhGVLCW/netflix-genre-bar-chart.jpg" alt="netflix-genre-bar-chart" border="0"></a>
-    </div>
-    <div>
     </div>
 </body>
 
