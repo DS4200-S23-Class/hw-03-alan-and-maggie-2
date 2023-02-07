@@ -1,25 +1,29 @@
 /* Styling goes in this file */
 
+/* make all text in arial font */
 body {
 	font-family: Arial;
 
 }
 
+/* center specific text */
 .centered {
 	text-align: center;
 }
 
+/* left align specific headers */
 .la-header {
 	text-align: left;
 }
 
+/* create rows using images and text */
 .row {
 	display: flex;
 	flex-direction: row;
 	text-align: left;
 }
 
-/* https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* create columns using images and text */
 .column {
 	float: left;
 	width: 50%;
